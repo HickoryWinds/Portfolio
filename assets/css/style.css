@@ -1,0 +1,100 @@
+/*------------------
+style elements
+------------------*/
+body {
+  background-image: url(../images/stars.jpg);
+}
+
+
+h1 {
+  font-size: 20pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+/*------------------
+style classes
+------------------*/
+
+.carousel-inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid purple;
+  width: 425px;
+  height: 280px;
+}
+
+.gold-text-head {
+  font-size: 24pt;
+  color:gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.gold-text-sub {
+  font-size: 20pt;
+  color:gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+/*------------------
+style ids
+------------------*/
+
+#links, #bio, #portfolio {
+  text-align: center;
+}
+
+#banner {
+  font-size: 34pt;
+  font-family: fantasy;
+  text-align: center;
+  background-color: yellow;
+  border: 3px solid green;
+}
+
+#left-banner-side {
+  font-size: 34pt;
+  font-family: fantasy;
+  text-align: center;
+  color: transparent;
+  background-image: url(../images/music-staves.jpg);
+  border-width: 3px 0px 3px 3px;
+  border-style: solid;
+  border-color: green;
+}
+
+#right-banner-side {
+  font-size: 34pt;
+  font-family: fantasy;
+  text-align: center;
+  color: transparent;
+  background-image: url(../images/bits.jpg);
+  background-color: red;
+  border-width: 3px 3px 3px 0px;
+  border-style: solid;
+  border-color: green;
+}
+
+#selfie {
+  height: 175px;
+  width: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(colored_ball_reduced.png) 20 round;
+}
+
+#brand-statement {
+  font-size: 13pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gold;
+  background-color:brown;
+  border-width: 0px 3px 3px 3px;
+  border-style: solid;
+  border-color: green;
+}
