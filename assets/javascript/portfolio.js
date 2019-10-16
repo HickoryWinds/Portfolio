@@ -17,6 +17,6 @@
                 cnt = 1;
             }
         }
-        // start changeColor
-        setInterval(changeColor, 3000);
+    // start changeColor
+    setInterval(changeColor, 3000);
     
